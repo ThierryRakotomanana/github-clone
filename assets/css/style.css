@@ -132,6 +132,41 @@
   html { scroll-behavior: smooth; }
 }
 
+[data-theme="dark"] {
+  color-scheme : dark;
+  --background :var(--background-dark);
+  --on-background:var(--on-background-dark);
+  --primary : var(--primary-dark);
+  --primary-hover :var(--primary-hover-dark);
+  --primary-outline :var(--primary-outline-dark);
+  --primary-outline-hover :var(--primary-outline-hover-dark);
+  --surface :var(--surface-dark);
+  --on-surface :var(--on-surface-dark);
+  --on-surface-2 :var(--on-surface-2-dark);
+  --surface-variant :var(--surface-variant-dark);
+  --surface-variant-hover :var(--surface-variant-hover-dark);
+  --on-surface-variant :var(--on-surface-variant-dark);
+  --surface-variant-outline :var(--surface-variant-outline-dark);
+  --surface-variant-outline-hover :var(--surface-variant-outline-hover-dark);
+  --error- :var(--error-dark);
+  --error-alpha-10 :var(--error-alpha-10-dark);
+  --outline :var(--outline-dark);
+  --surface-1 :var(--surface-1-dark);
+  --surface-1-hover :var(--surface-1-hover-dark);
+  --surface-1-outline :var(--surface-1-outline-dark);
+  --surface-1-outline-hover :var(--surface-1-outline-hover-dark);
+  --alpha-80 :var(--alpha-80-dark);
+  --alpha-70 :var(--alpha-70-dark);
+  --alpha-60- :var(--alpha-60-dark);
+  --alpha-50 :var(--alpha-50-dark);
+  --alpha-10 :var(--alpha-10-dark);
+  --alpha-5 :var(--alpha-5-dark);
+  --overlay-bg :var(--overlay-bg-dark);
+
+}
+
+
+
 /*-----------------------------------*\
   #RESET
 \*-----------------------------------*/
