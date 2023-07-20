@@ -165,6 +165,38 @@
 
 }
 
+[data-theme="light"] {
+  color-scheme : light;
+  --background :var(--background-light);
+  --on-background:var(--on-background-light);
+  --primary : var(--primary-light);
+  --primary-hover :var(--primary-hover-light);
+  --primary-outline :var(--primary-outline-light);
+  --primary-outline-hover :var(--primary-outline-hover-light);
+  --surface :var(--surface-light);
+  --on-surface :var(--on-surface-light);
+  --on-surface-2 :var(--on-surface-2-light);
+  --surface-variant :var(--surface-variant-light);
+  --surface-variant-hover :var(--surface-variant-hover-light);
+  --on-surface-variant :var(--on-surface-variant-light);
+  --surface-variant-outline :var(--surface-variant-outline-light);
+  --surface-variant-outline-hover :var(--surface-variant-outline-hover-light);
+  --error- :var(--error-light);
+  --error-alpha-10 :var(--error-alpha-10-light);
+  --outline :var(--outline-light);
+  --surface-1 :var(--surface-1-light);
+  --surface-1-hover :var(--surface-1-hover-light);
+  --surface-1-outline :var(--surface-1-outline-light);
+  --surface-1-outline-hover :var(--surface-1-outline-hover-light);
+  --alpha-80 :var(--alpha-80-light);
+  --alpha-70 :var(--alpha-70-light);
+  --alpha-60- :var(--alpha-60-light);
+  --alpha-50 :var(--alpha-50-light);
+  --alpha-10 :var(--alpha-10-light);
+  --alpha-5 :var(--alpha-5-light);
+  --overlay-bg :var(--overlay-bg-light);
+
+}
 
 
 /*-----------------------------------*\
