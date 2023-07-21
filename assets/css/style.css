@@ -203,9 +203,44 @@
   #RESET
 \*-----------------------------------*/
 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+li { list-style: none; }
 
+a,
+img,
+svg,
+input,
+button { display: block; }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img { height: auto; }
+
+input,
+button {
+  background : none;
+  border: none;
+  font: inherit;
+}
+
+input { width: 100%; }
+
+button { cursor: pointer; }
+
+html {
+  font-size: var(--base-font-size);
+  -webkit-tap-highlight-color: transparent;
+}
 
 /*-----------------------------------*\
   #UTILITY
